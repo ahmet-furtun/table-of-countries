@@ -1,4 +1,5 @@
 import React from 'react';
+import HomePage from '../../pages/HomePage/home.page';
 
 import './app.component.css';
 import '../../common/styles';
@@ -6,7 +7,7 @@ import '../../common/styles';
 const App = () => {
     return (
         <div>
-            Hello World!
+            <HomePage/>
         </div>
     )
 }
