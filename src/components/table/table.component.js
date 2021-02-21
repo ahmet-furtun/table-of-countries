@@ -1,7 +1,6 @@
 import React from "react";
 
 import Table from "react-bootstrap/Table";
-import './table.component.css';
 
 const TableOfCountries = (props) => {
   return (
