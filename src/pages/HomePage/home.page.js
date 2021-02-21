@@ -15,7 +15,7 @@ const HomePage = () => {
     async function fetchData() {
       const request = await axios.get("https://restcountries.eu/rest/v2/all");
       let index = 0;
-      while (index < 249) {
+      while (request.data[index] != null) {
         if (!filter || filter.length === 0) {
           country.push({
             name: request.data[index].name,

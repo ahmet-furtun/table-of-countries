@@ -1,16 +1,17 @@
 import React from "react";
 
 import Table from "react-bootstrap/Table";
+import './table.component.css';
 
 const TableOfCountries = (props) => {
   return (
     <Table striped bordered hover>
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Capital</th>
-          <th>Region</th>
-          <th>Flag</th>
+          <th width="55%">Name</th>
+          <th width="20%">Capital</th>
+          <th width="15%">Region</th>
+          <th width="10%">Flag</th>
         </tr>
       </thead>
       <tbody>
